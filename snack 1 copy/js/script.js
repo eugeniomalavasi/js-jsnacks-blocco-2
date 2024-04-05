@@ -9,8 +9,8 @@ console.log(userNumb);
 function arrayGen(genArray) {
     for (let i = 0; i < userNumb; i++) {
         const emptyArray = [];
-        console.log(emptyArray);
-        for (let j = 0; j <= 10; j++) {
+        console.log("--------------------");
+        for (let j = 0; j < 10; j++) {
             emptyArray.push = Math.floor(Math.random() * 100) + 1;
             console.log(emptyArray);
         }
