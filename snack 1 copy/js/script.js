@@ -7,7 +7,7 @@ console.log(userNumb);
  * @returns {array}
  */
 function arrayGen(genArray) {
-    for (let i = 0; i <= userNumb; i++) {
+    for (let i = 0; i < userNumb; i++) {
         const emptyArray = [];
         console.log(emptyArray);
         for (let j = 0; j <= 10; j++) {
