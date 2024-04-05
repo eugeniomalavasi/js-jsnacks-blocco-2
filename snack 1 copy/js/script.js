@@ -7,15 +7,15 @@ console.log(userNumb);
  * @returns {array}
  */
 function arrayGen(genArray) {
+    const emptyArray = [];
     for (let i = 0; i < genArray; i++) {
-        const emptyArray = [];
         console.log("--------------------");
         for (let j = 0; j < 10; j++) {
             emptyArray.push = Math.floor(Math.random() * 100) + 1;
             console.log(emptyArray);
         }
     }
-    return emptyArray
+    return emptyArray;
 }
 
-arrayGen(userNumb)
+arrayGen(userNumb);
