@@ -1,12 +1,13 @@
 // LOGIC
 function compareWordLenght (wordOne, wordTwo) {
     let result = "";
-    if (wordOne.lenght === wordTwo.lenght) {
-        result = wordOne, wordTwo;
-    } else if (wordOne.lenght > wordTwo.lenght) {
+    if (wordOne.length === wordTwo.length) {
+        result = `${wordOne} ${wordTwo}`;
+    } else if (wordOne.length > wordTwo.length) {
         result = wordOne;
     } else {
         result = wordTwo;
     }
-    return result
+    console.log(result);
+    return result;
 }

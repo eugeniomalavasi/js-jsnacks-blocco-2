@@ -3,4 +3,4 @@ const userWordOne = prompt("inserisci prima parola") // string
 const userWordTwo = prompt("inserisci seconda parola") // string
 
 
-compareWordLenght(ciao, ciaone);
+compareWordLenght(userWordOne, userWordTwo);
