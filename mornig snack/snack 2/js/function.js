@@ -2,7 +2,7 @@
 function compareWordLenght (wordOne, wordTwo) {
     let result = "";
     if (wordOne.length === wordTwo.length) {
-        result = `${wordOne} ${wordTwo}`;
+        result = `${wordOne}, ${wordTwo}`;
     } else if (wordOne.length > wordTwo.length) {
         result = wordOne;
     } else {
