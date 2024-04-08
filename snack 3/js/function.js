@@ -7,7 +7,11 @@ function printArray(arrayToPrint) {
     let elemPrint = "";
     for (let i = 0; i < arrayToPrint.length; i++) {
         const curElem = arrayToPrint[i];
-        elemPrint += `${curElem}, `
+        elemPrint += curElem
+
+        if (i !== arrayToPrint.length -1) {
+            elemPrint += ", "
+        }
     }
     console.log(elemPrint);
     return elemPrint;
